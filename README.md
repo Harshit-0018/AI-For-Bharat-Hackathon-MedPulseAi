@@ -1,106 +1,198 @@
+# MedPulse AI – Real-Time Pharmacovigilance Intelligence System
+
 ![Python](https://img.shields.io/badge/Python-3.10-blue)
 ![FastAPI](https://img.shields.io/badge/FastAPI-Backend-green)
 ![AI](https://img.shields.io/badge/AI-Groq-orange)
 ![Status](https://img.shields.io/badge/Status-Active-success)
+![License](https://img.shields.io/badge/License-Hackathon-lightgrey)
 
-# MedPulse AI – Real-Time Pharmacovigilance System
+---
 
 ## Overview
 
-MedPulse AI is an intelligent pharmacovigilance platform designed to monitor, analyze, and interpret real-time social media signals related to drug safety. It helps identify adverse drug reactions (ADRs), detect emerging risks, and assist healthcare stakeholders in making timely decisions.
+MedPulse AI is a real-time pharmacovigilance platform that uses artificial intelligence to monitor, analyze, and interpret patient-reported drug experiences from social media.
 
-The system aggregates data from multiple social platforms, processes it using AI models, and presents actionable insights through an interactive dashboard.
+It converts unstructured online discussions into actionable insights, enabling early detection of adverse drug reactions (ADRs).
 
 ---
 
 ## Problem Statement
 
-Adverse drug reactions are often underreported and detected late through traditional pharmacovigilance systems. With the rapid growth of social media, patients frequently share their experiences online, but this data remains largely unstructured and underutilized.
+Traditional pharmacovigilance systems face several limitations:
 
-Challenges include:
-
-- Lack of real-time monitoring of patient-reported symptoms  
-- Difficulty in extracting meaningful insights from noisy, unstructured data  
-- Delayed identification of high-risk drug safety signals  
-- Absence of intelligent tools for summarizing and prioritizing adverse events  
+- Delayed detection of adverse drug reactions  
+- Underreporting of patient experiences  
+- Lack of real-time monitoring  
+- Difficulty analyzing unstructured data  
 
 ---
 
 ## Proposed Solution
 
-MedPulse AI addresses these challenges by building a real-time monitoring and analysis system that:
+MedPulse AI:
 
-- Collects social media signals related to drugs and symptoms  
-- Detects adverse events using AI-driven analysis  
-- Classifies severity levels (Low, Medium, High, Critical)  
-- Identifies trending drugs and emerging risks  
-- Provides an AI-powered assistant for contextual insights  
-- Displays results in a structured and interactive dashboard  
-
----
-
-## How the System Works
-
-1. Data Ingestion  
-   Simulated or real-time data is collected from sources like Reddit, Twitter/X, and Quora.
-
-2. Signal Processing  
-   Each post is analyzed to extract drug names, symptoms, and sentiment.
-
-3. Adverse Event Detection  
-   The backend processes signals and flags potential adverse drug reactions.
-
-4. Severity Classification  
-   Events are categorized based on risk level.
-
-5. Trend Analysis  
-   The system aggregates data over time to identify patterns.
-
-6. AI Assistant  
-   Users can query the system using natural language.
-
-7. Visualization  
-   Insights are presented through dashboards.
+- Monitors social media signals in real time  
+- Detects adverse drug reactions using AI  
+- Classifies severity (Low, Medium, High, Critical)  
+- Tracks sentiment and trends  
+- Provides AI-powered insights  
+- Visualizes data via dashboard  
 
 ---
 
-## Key Features
+## How It Works
 
-- Real-time signal monitoring dashboard  
-- AI-powered assistant  
-- Adverse event detection  
-- Sentiment analysis  
-- Source-wise distribution  
-- Interactive UI  
+1. Data is collected from multiple sources (Reddit, Twitter/X, Quora)  
+2. Backend processes incoming signals  
+3. AI analyzes sentiment and medical relevance  
+4. System classifies severity of events  
+5. Insights are displayed on dashboard  
+
+---
+
+## System Architecture
+
+```
+Frontend (UI)
+   ↓
+FastAPI Backend
+   ↓
+Groq AI Processing
+   ↓
+Signal Analysis
+   ↓
+Dashboard Visualization
+```
+
+---
+
+## Project Structure
+
+```
+.
+├── index.html
+├── main.py
+├── requirements.txt
+├── run.bat
+├── .env
+├── .gitignore
+```
 
 ---
 
 ## Tech Stack
 
-Frontend:
-- HTML
-- CSS
-- JavaScript
+### Frontend
+- HTML5  
+- CSS3  
+- JavaScript  
 
-Backend:
-- Python
-- FastAPI
+### Backend
+- Python  
+- FastAPI  
 
-AI:
-- Groq API
+### AI & Processing
+- Groq API  
 
----
-
-## Installation
-
-1. Clone repo  
-2. Install dependencies  
-3. Add API key  
-4. Run backend  
-5. Run frontend  
+### Data Handling
+- REST APIs  
+- Environment variables  
 
 ---
 
-## Conclusion
+## Features
 
-MedPulse AI demonstrates how AI can transform pharmacovigilance by enabling faster detection and better insights.
+- Real-time monitoring dashboard  
+- AI-powered agent chat  
+- Adverse event detection  
+- Sentiment trend visualization  
+- Signal feed from multiple sources  
+- Severity classification system  
+- Project-based monitoring  
+- Source distribution analytics  
+
+---
+
+## Use Cases
+
+- Drug safety monitoring  
+- Early adverse event detection  
+- Healthcare analytics  
+- Pharmacovigilance automation  
+- Public health monitoring  
+
+---
+
+## Installation & Setup
+
+### 1. Clone Repository
+
+```
+git clone https://github.com/Harshit-0018/AI-For-Bharat-Hackathon-MedPulseAi.git
+cd AI-For-Bharat-Hackathon-MedPulseAi
+```
+
+---
+
+### 2. Install Dependencies
+
+```
+pip install -r requirements.txt
+```
+
+---
+
+### 3. Setup Environment Variables
+
+Create a `.env` file:
+
+```
+GROQ_API_KEY=your_api_key_here
+```
+
+---
+
+### 4. Run Backend
+
+```
+uvicorn main:app --reload --port 8000
+```
+
+---
+
+### 5. Run Frontend
+
+```
+python -m http.server 5500
+```
+
+---
+
+### 6. Open in Browser
+
+```
+http://localhost:5500
+```
+
+---
+
+## Future Improvements
+
+- Integration with real-world APIs  
+- Alert and notification system  
+- Database support  
+- Authentication system  
+- Deployment (Docker / Cloud)  
+- Advanced ML models  
+
+---
+
+## Author
+
+Harshit  
+
+---
+
+## License
+
+This project is created for hackathon purposes and is open for learning and demonstration.
