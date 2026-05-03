@@ -100,6 +100,12 @@ Dashboard Visualization
 
 ---
 
+## Architecture
+
+<img width="1536" height="1024" alt="ChatGPT Image May 3, 2026, 07_23_51 PM" src="https://github.com/user-attachments/assets/17495eb2-105f-4de3-8fa1-9594aa3e362b" />
+
+---
+
 ## Features
 
 - Real-time monitoring dashboard  
