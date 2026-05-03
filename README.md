@@ -1,3 +1,8 @@
+![Python](https://img.shields.io/badge/Python-3.10-blue)
+![FastAPI](https://img.shields.io/badge/FastAPI-Backend-green)
+![AI](https://img.shields.io/badge/AI-Groq-orange)
+![Status](https://img.shields.io/badge/Status-Active-success)
+
 # MedPulse AI – Real-Time Pharmacovigilance System
 
 ## Overview
