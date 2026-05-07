@@ -397,9 +397,9 @@ Response:
 
 ## Harshit
 
-GitHub:
-https://github.com/Harshit-0018
 
+Linkedin: https://www.linkedin.com/in/harshitsinghnitc/
+Email: harshitsingh8157@gmail.com
 ---
 
 # License
