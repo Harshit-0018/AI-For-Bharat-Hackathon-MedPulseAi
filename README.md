@@ -194,7 +194,8 @@ Frontend (HTML/CSS/JS)
 
 ## Dashboard Overview
 
-<img width="1919" height="1079" alt="Dashboard" src="https://github.com/user-attachments/assets/dashboard-overview-medpulse" />
+<img width="1910" height="907" alt="image" src="https://github.com/user-attachments/assets/d5628478-d178-4150-a592-8314375f6344" />
+
 
 Features shown:
 - Total signals
@@ -208,7 +209,8 @@ Features shown:
 
 ## Signal Feed
 
-<img width="1919" height="1079" alt="Signal Feed" src="https://github.com/user-attachments/assets/signal-feed-medpulse" />
+<img width="1919" height="906" alt="image" src="https://github.com/user-attachments/assets/43acebf8-eb3c-4acd-855b-317b228cf3a0" />
+
 
 Features shown:
 - Live Reddit signals
@@ -220,7 +222,8 @@ Features shown:
 
 ## Monitoring Projects
 
-<img width="1919" height="1079" alt="Projects" src="https://github.com/user-attachments/assets/projects-medpulse" />
+<img width="1918" height="899" alt="image" src="https://github.com/user-attachments/assets/73df61a2-deaa-496b-840c-51d55f543080" />
+
 
 Features shown:
 - Drug monitoring projects
@@ -232,7 +235,8 @@ Features shown:
 
 ## Adverse Event Alerts
 
-<img width="1919" height="1079" alt="Adverse Events" src="https://github.com/user-attachments/assets/adverse-events-medpulse" />
+<img width="1918" height="907" alt="image" src="https://github.com/user-attachments/assets/8454f439-a934-48e8-9741-3e31d818b037" />
+
 
 Features shown:
 - Critical event detection
@@ -244,7 +248,8 @@ Features shown:
 
 ## AI Agent Chat
 
-<img width="1919" height="1079" alt="AI Chat" src="https://github.com/user-attachments/assets/ai-chat-medpulse" />
+<img width="1912" height="908" alt="image" src="https://github.com/user-attachments/assets/2cd66943-0b4d-4ebd-b3ba-1044792da7fc" />
+
 
 Features shown:
 - AI pharmacovigilance assistant
