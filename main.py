@@ -135,11 +135,9 @@ def get_trends():
 @app.post("/agent/chat")
 def agent_chat(chat_request: AgentChatRequest):
     try:
-        # ✅ Safe system fallback
         system_prompt = chat_request.system if chat_request.system else \
             "You are a pharmacovigilance AI assistant. Highlight drug safety risks clearly."
 
-        # ✅ Ensure messages exist
         user_messages = chat_request.messages if chat_request.messages else [
             {"role": "user", "content": "Hello"}
         ]
@@ -147,7 +145,7 @@ def agent_chat(chat_request: AgentChatRequest):
         formatted_messages = [{"role": "system", "content": system_prompt}] + user_messages
 
         groq_chat_response = client.chat.completions.create(
-            model="llama-3.1-8b-instant",   # ✅ safer + faster
+            model="llama-3.1-8b-instant",
             messages=formatted_messages,
             temperature=0.7
         )
@@ -161,3 +159,7 @@ def agent_chat(chat_request: AgentChatRequest):
         return {
             "response": "⚠️ AI service temporarily unavailable"
         }
+
+if __name__ == "__main__":
+    import uvicorn
+    uvicorn.run(app, host="0.0.0.0", port=8888)
